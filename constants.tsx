@@ -21,6 +21,9 @@ import { Service, NavLink, Testimonial, Partner } from "./types";
 import kavadevLogo from "./assets/kavadev.png";
 import verktekLogo from "./assets/verktek.png";
 import dummyLogo from "./assets/logo-1.png";
+import chapterOne from "./assets/chapter1.png";
+import chapterTwo from "./assets/chapter2.png";
+import chapterThree from "./assets/chapter3.png";
 import karvikaPhoto from "./assets/karvika.jpg";
 
 /**
@@ -85,7 +88,7 @@ export const ABOUT_CHAPTERS = [
         color: "border-sky-300",
         accent: "text-sky-500",
         bg: "bg-sky-50/50",
-        image: "https://images.unsplash.com/photo-1573497019236-17f8177b81e8?auto=format&fit=crop&w=1200&q=80",
+        image: chapterOne,
         imageLabel: "Reliability Focus",
     },
     {
@@ -97,7 +100,7 @@ export const ABOUT_CHAPTERS = [
         color: "border-orange-200",
         accent: "text-orange-400",
         bg: "bg-orange-50/50",
-        image: "https://images.unsplash.com/photo-1600880212319-7837e9858b12?auto=format&fit=crop&w=1200&q=80",
+        image: chapterTwo,
         imageLabel: "Precision Engineering",
     },
     {
@@ -109,7 +112,7 @@ export const ABOUT_CHAPTERS = [
         color: "border-purple-200",
         accent: "text-purple-400",
         bg: "bg-purple-50/50",
-        image: "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=1200&q=80",
+        image: chapterThree,
         imageLabel: "Global Partnership",
     },
 ];
