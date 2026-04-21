@@ -27,6 +27,7 @@ const Clients: React.FC = () => {
                 >
                   <img 
                     src={logo} 
+                    referrerPolicy="no-referrer"
                     className="max-w-full max-h-full object-contain opacity-90 group-hover:opacity-100 group-hover:animate-hobble transition-all duration-700 transform group-hover:scale-110" 
                     alt="Client Logo"
                   />

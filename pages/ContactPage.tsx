@@ -19,14 +19,8 @@ const ContactPage: React.FC<{ navigateTo: (p: PageType) => void }> = ({ navigate
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 items-end">
             <div className="lg:col-span-8">
               <span className="text-orchid font-black tracking-[0.6em] uppercase text-[10px] mb-6 block">Communication Hub</span>
-              <h1 className="text-6xl md:text-8xl font-black text-[#1E1B4B] tracking-tighter leading-[0.85]">
-                Open the <span className="font-serif italic font-normal text-gradient">Channel</span>.
-              </h1>
             </div>
             <div className="lg:col-span-4">
-              <p className="text-lg text-slate-400 font-medium leading-relaxed border-l-2 border-orchid/20 pl-8">
-                Initiating a global partnership starts with a single conversation. Our Kathmandu studio is ready to listen.
-              </p>
             </div>
           </div>
         </div>

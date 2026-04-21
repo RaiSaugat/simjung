@@ -6,9 +6,10 @@ import Home from './pages/Home';
 import AscentPage from './pages/AscentPage';
 import InquiryPage from './pages/InquiryPage';
 import ContactPage from './pages/ContactPage';
+import InitiatePage from './pages/InitiatePage';
 import { Mountain } from 'lucide-react';
 
-export type PageType = 'home' | 'ascent' | 'inquiry' | 'contact' | '404';
+export type PageType = 'home' | 'ascent' | 'inquiry' | 'contact' | 'initiate' | '404';
 
 const App: React.FC = () => {
   const [currentPage, setCurrentPage] = useState<PageType>('home');
@@ -32,6 +33,8 @@ const App: React.FC = () => {
         return <InquiryPage selectedService={selectedService} navigateTo={navigateTo} />;
       case 'contact':
         return <ContactPage navigateTo={navigateTo} />;
+      case 'initiate':
+        return <InitiatePage navigateTo={navigateTo} />;
       case '404':
         return (
           <div className="min-h-screen flex flex-col items-center justify-center px-6 bg-white text-center">
