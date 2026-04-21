@@ -18,6 +18,10 @@ import {
     Clock,
 } from "lucide-react";
 import { Service, NavLink, Testimonial, Partner } from "./types";
+import kavadevLogo from "./assets/kavadev.png";
+import verktekLogo from "./assets/verktek.png";
+import dummyLogo from "./assets/logo-1.png";
+import karvikaPhoto from "./assets/karvika.jpg";
 
 /**
  * ============================================================================
@@ -295,7 +299,7 @@ export const FOUNDERS = [
         role: "Founder & CEO",
         bio: "Simjung was founded by Karvika Thapa with a simple but powerful vision—to create opportunities, build global connections, and prove that world-class talent can thrive from Nepal.\n\nWhat started as a small initiative has grown into a company that is not only delivering BPO, KPO, and development solutions globally, but also changing lives at home. By creating meaningful employment—especially for young people and women—Simjung has become a platform for empowerment, confidence, and financial independence.\n\nKarvika’s journey is rooted in resilience, purpose, and belief in people. Under her leadership, Simjung has built trusted partnerships across countries, while quietly contributing to the growth of Nepal’s digital economy and its presence on the global stage.\n\nFor Karvika, Simjung is more than a company. It’s a movement to create impact, one opportunity, one client, and one story at a time.",
         strengths: ["Visionary Leadership", "Global Strategy", "Social Impact"],
-        image: "../assets/karvika.jpg",
+        image: karvikaPhoto,
         accent: "sky",
     },
 ];
@@ -311,21 +315,21 @@ export const TESTIMONIALS: Testimonial[] = [
         author: "Executive Team",
         role: "International Client",
         company: "AI Annotation Partner",
-        image: "../assets/logo-1.png",
+        image: dummyLogo,
     },
     {
         text: "We’ve worked with Simjung for over 8 years. They bring a rare ability to build customizable solutions that truly match client needs. Together, we’ve supported large and demanding clients with flexible, reliable, and scalable solutions.",
         author: "Management",
         role: "Strategic Partner",
         company: "Kavadev (Israel)",
-        image: "../assets/kavadev.png",
+        image: kavadevLogo,
     },
     {
         text: "Our partnership with Simjung is built for the long term. They adapt quickly and consistently deliver with reliability and care. They’re not just a service provider—they’re a partner we truly rely on.",
         author: "Product Lead",
         role: "Official Partner",
         company: "Verktek (Iceland)",
-        image: "../assets/verktek.png",
+        image: verktekLogo,
     },
 ];
 
@@ -366,8 +370,8 @@ export const PARTNERS: Partner[] = [
 
 export const CLIENT_LOGOS = [
     "https://cdn.worldvectorlogo.com/logos/google-2.svg",
-    "../assets/kavadev.png",
-    "../assets/verktek.png",
+    kavadevLogo,
+    verktekLogo,
     "https://cdn.worldvectorlogo.com/logos/tesla-9.svg",
     "https://cdn.worldvectorlogo.com/logos/adobe-2.svg",
     "https://cdn.worldvectorlogo.com/logos/shopify.svg",
